@@ -29,6 +29,8 @@
         </a>
         <div class="col d-lg-flex xl-pl-20" id="menu-top">
         </div>
+        <a href="#" class="top_shortcuts">+1 201 989 74 55</a>
+        <a href="#" class="top_shortcuts">info@pilonia.com</a>
         <span class="hamburger-btn"></span>
     </div>
 </div>

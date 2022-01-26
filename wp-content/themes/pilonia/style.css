@@ -17,4 +17,13 @@
     background-position: center center;
     background-image: url("images/hamburger.svg"); }
 
+.top_shortcuts {
+  text-decoration: none;
+  color: #383838;
+  font-size: 20px;
+  margin-right: 60px; }
+
+.products-wrapper {
+  margin-top: 95px; }
+
 /*# sourceMappingURL=style.css.map */
