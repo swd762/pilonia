@@ -23,7 +23,7 @@
 </head>
 <body>
 <div id="header">
-    <div class="navbar container-fluid d-flex flex-wrap">
+    <div class="navbar container d-flex flex-wrap">
         <a href="/" class="logo">
             <img src="<?php echo get_template_directory_uri() . '/images/logo.svg' ?>" alt="logo">
         </a>

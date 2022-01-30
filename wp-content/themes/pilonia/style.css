@@ -1,6 +1,14 @@
-.container-fluid {
-  padding-left: 85px;
-  padding-right: 85px; }
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Oswald:wght@400;500&display=swap");
+body {
+  background-color: #FDFDFC;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #383838; }
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0; }
 
 .hamburger-btn {
   width: 40px;
@@ -24,6 +32,85 @@
   margin-right: 60px; }
 
 .products-wrapper {
-  margin-top: 95px; }
+  margin-top: 30px; }
+  .products-wrapper .product {
+    position: relative; }
+    .products-wrapper .product .description {
+      padding-top: 3%;
+      padding-left: 3%;
+      padding-right: 3%;
+      position: absolute;
+      width: 50%;
+      min-height: 30%;
+      background-color: #FDFDFC;
+      bottom: 0; }
+      .products-wrapper .product .description h3 {
+        font-size: 44px;
+        color: #383838; }
+      .products-wrapper .product .description p {
+        color: #8D8D8D;
+        font-size: 16px;
+        word-break: break-word;
+        margin-bottom: 0; }
+      .products-wrapper .product .description span {
+        color: #383838;
+        font-size: 14px; }
+        .products-wrapper .product .description span > img {
+          max-width: 19px;
+          max-height: 19px;
+          background: transparent; }
+    .products-wrapper .product img {
+      max-width: 840px;
+      width: 100%;
+      background-color: #F3F4F6; }
+
+.about-us {
+  margin-top: 100px; }
+  .about-us h2 {
+    font-size: 107px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    text-transform: uppercase; }
+  .about-us .subscribe {
+    font-size: 38px;
+    font-weight: 400; }
+  .about-us .desc {
+    letter-spacing: 0.25px;
+    font-size: 25px;
+    font-weight: 500; }
+  .about-us .extra-info {
+    margin-top: 30px; }
+    .about-us .extra-info .label {
+      display: flex; }
+      .about-us .extra-info .label span:first-of-type {
+        font-size: 75px;
+        font-weight: 400;
+        line-height: 75px;
+        letter-spacing: -1.5px; }
+      .about-us .extra-info .label span:last-of-type {
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 40px;
+        color: #8D8D8D;
+        margin-left: 7px;
+        letter-spacing: 0.25px; }
+    .about-us .extra-info .text {
+      font-family: 'Manrope', sans-serif;
+      font-size: 14px;
+      color: #8D8D8D;
+      font-weight: 400; }
+  .about-us .about-img {
+    margin-top: 100px; }
+    .about-us .about-img > img {
+      width: 100%; }
+
+.contact-us {
+  margin-top: 100px; }
+  .contact-us h2 {
+    font-size: 107px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
