@@ -9,36 +9,39 @@ Template Name: Home Page
     <div id="page-home">
         <main>
             <div class="container">
-                <div class="row products-wrapper">
-                    <div class="col-lg-6 col-md-6">
-                        <a href="#" class="product">
-                            <img src="<?php echo get_template_directory_uri() . '/images/products-printer.svg' ?>" alt="logo">
-                            <div class="description">
-                                <h3>4D printer’s</h3>
-                                <p>Pilonia printers are large-format portal COP-printer
-                                    with enhanced performance for printing elements
-                                    of buildings</p>
-                                <span>
-                            learn more
-                            <img class="icon" src="<?php echo get_template_directory_uri() . '/images/arrow-right.svg' ?>" alt="">
-                        </span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <a href="#" class="product">
-                            <img src="<?php echo get_template_directory_uri() . '/images/products-homes.png' ?>" alt="logo">
-                            <div class="description">
-                                <h3>4D printer’s</h3>
-                                <p>Pilonia printers are large-format portal COP-printer
-                                    with enhanced performance for printing elements
-                                    of buildings</p>
-                                <span>
-                            learn more
-                            <img class="icon" src="<?php echo get_template_directory_uri() . '/images/arrow-right.svg' ?>" alt="">
-                        </span>
-                            </div>
-                        </a>
+                <div class="products">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <a href="#" class="product-card printer">
+                                <!--                                <img src="--><?php //echo get_template_directory_uri() . '/images/products-homes1.png' ?><!--" alt="">-->
+                                <div class="description">
+                                    <h3>4D printers</h3>
+                                    <p>Pilonia printers are large-format portal COP-printer
+                                        with enhanced performance for printing elements
+                                        of buildings
+                                    </p>
+                                    <span>
+                                learn more
+                                    <img class="icon" src="<?php echo get_template_directory_uri() . '/images/arrow-right.svg' ?>" alt="">
+                                </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <a href="#" class="product-card homes">
+                                <!--                                <img src="--><?php //echo get_template_directory_uri() . '/images/products-homes1.png' ?><!--" alt="">-->
+                                <div class="description">
+                                    <h3>Our homes</h3>
+                                    <p>3D printed home construction is achieved using a gantry style printer. A gantry style printer operates under the same guiding principles as a
+                                        typical plastic 3D printer
+                                    </p>
+                                    <span>
+                                learn more
+                                    <img class="icon" src="<?php echo get_template_directory_uri() . '/images/arrow-right.svg' ?>" alt="">
+                                </span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="about-us">
