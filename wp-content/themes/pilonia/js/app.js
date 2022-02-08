@@ -52,13 +52,13 @@
 
         var scroll = $(window).scrollTop();
         console.log(scroll);
-        if (scroll >= 50) {
+        if (scroll >= 20) {
             $(".main-menu").addClass("background-version");
         } else {
             $(".main-menu").removeClass("background-version");
         }
 
-        if (scroll >= 100) {
+        if (scroll >= 50) {
             //scroll up or down
             var currentScroll = $(window).scrollTop();
             console.log(currentScroll);

@@ -84,6 +84,154 @@ Template Name: Home Page
                         <img src="<?php echo get_template_directory_uri() . '/images/home.png' ?>" alt="">
                     </div>
                 </div>
+
+                <div class="news">
+                    <h2>News</h2>
+                    <div class="news-item">
+                        <div class="row">
+                            <div class="col-xl-3 header-title">
+                                The first piece
+                                of news.
+                            </div>
+                            <div class="col-xl-3 header-text">
+                                <div class="header">
+                                    All structural elements
+                                    were finally assembled,
+                                    the structure acquired
+                                    a finished look.
+                                </div>
+                                <div class="desc">
+                                    Field trials were completed successfully in&nbsp;full accordance with the calculations
+                                </div>
+                            </div>
+                            <div class="col-xl-6 header-pic">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-1-head.jpg' ?>" alt="">
+                            </div>
+                        </div>
+                        <div class="row news-gallery">
+                            <div class="col-xl-3">
+
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-1-1.jpg' ?>" alt="">
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-1-2.jpg' ?>" alt="">
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-1-3.jpg' ?>" alt="">
+                            </div>
+                        </div>
+                        <div class="row news-gallery">
+                            <div class="col-xl-3">
+
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-1-4.jpg' ?>" alt="">
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-1-5.jpg' ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-item">
+                        <div class="row">
+                            <div class="col-xl-3 header-title">
+                                The second piece
+                                of news.
+                            </div>
+                            <div class="col-xl-3 header-text">
+                                <div class="header">
+                                    The tests of a concrete
+                                    mixture held place.
+                                </div>
+                                <div class="desc">
+                                    The characteristics of this concrete mixture
+                                    make it possible to use it in construction
+                                    at temperatures up to minus five degrees
+                                    Celsius. This mixture is used for the
+                                    construction of buildings and structures
+                                    via 3D printing.
+                                </div>
+                            </div>
+                            <div class="col-xl-6 header-pic">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-2-head.jpg' ?>" alt="">
+                            </div>
+                        </div>
+                        <div class="row news-gallery">
+                            <div class="col-xl-3">
+
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-2-1.jpg' ?>" alt="">
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-2-2.jpg' ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-item">
+                        <div class="row">
+                            <div class="col-xl-3 header-title">
+                                The third piece
+                                of news.
+                            </div>
+                            <div class="col-xl-3 header-text">
+                                <div class="header">
+                                    The construction of the
+                                    facility has begun
+                                </div>
+                                <div class="desc">
+                                    The first phase of building of the
+                                    construction has been completed.
+                                    At this stage, the foundation formwork
+                                    was printed.
+                                </div>
+                            </div>
+                            <div class="col-xl-6 header-pic">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-3-head.jpg' ?>" alt="">
+                            </div>
+                        </div>
+                        <div class="row news-gallery">
+                            <div class="col-xl-3">
+
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-3-1.jpg' ?>" alt="">
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-3-2.jpg' ?>" alt="">
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-3-3.jpg' ?>" alt="">
+                            </div>
+                        </div>
+                        <div class="row news-gallery">
+                            <div class="col-xl-3">
+
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+
+                            </div>
+                            <div class="col-xl-3 gallery-pics">
+                                <img src="<?php echo get_template_directory_uri() . '/images/news-3-4.jpg' ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
                 <div class="contact-us">
                     <h2>Contact us</h2>
                     <div class="row">

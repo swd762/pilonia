@@ -9,9 +9,9 @@
  * @package WordPress
  *
  */
+?>
 
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -68,12 +68,21 @@
             <a href="#" class="">+1 201 989 74 55</a>
             <a href="#" class="">info@pilonia.com</a>
         </div>
-
         <div class="menu-icon">
             <span class="menu-icon__line menu-icon__line-left"></span>
             <span class="menu-icon__line"></span>
             <span class="menu-icon__line menu-icon__line-right"></span>
         </div>
+    </div>
+    <div class="nav">
+        <!--    <div class="nav__content">-->
+        <!--        <ul class="nav__list">-->
+        <!--            <li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>-->
+        <!--            <li class="nav__list-item"><a href="#" class="hover-target">studio</a></li>-->
+        <!--            <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>-->
+        <!--            <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>-->
+        <!--        </ul>-->
+        <!--    </div>-->
     </div>
 </header>
 <div class="nav">
@@ -84,6 +93,17 @@
 <!--            <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>-->
 <!--            <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>-->
 <!--        </ul>-->
+<!--    </div>-->
+<!--    <div class="nav-footer">-->
+<!--        <div>-->
+<!--            +1 201 989 74 55-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            info@3pilonia.com-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            socials-->
+<!--        </div>-->
 <!--    </div>-->
 </div>
 
@@ -132,7 +152,7 @@
         var applyListeners = function applyListeners() {
             menu.addEventListener('click', function () {
                 toggleClass(body, 'nav-active');
-                toggleClass(menuBar, 'background-version');
+                // menuBar.classList.remove('background-version');
             });
         };
         var toggleClass = function toggleClass(element, stringClass) {
