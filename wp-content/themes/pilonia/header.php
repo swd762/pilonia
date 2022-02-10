@@ -64,7 +64,7 @@
                 </g>
             </svg>
         </a>
-        <div class="top_shortcuts">
+        <div class="top_shortcuts md-hidden">
             <a href="#" class="">+1 201 989 74 55</a>
             <a href="#" class="">info@pilonia.com</a>
         </div>
