@@ -22,6 +22,16 @@ h2 {
   padding: 0;
 }
 
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
 
 body {
   background-color: $background-light;
@@ -427,7 +437,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 
 .container {
-  max-width: 1300px;
+  max-width: 1440px;
 }
 
 
@@ -852,6 +862,169 @@ h3 {
     }
   }
 }
+
+
+// printers page
+
+#printers-page {
+  min-height: 600px;
+
+  .block {
+    margin-top: 195px;
+
+    h2 {
+      font-size: 125px;
+      letter-spacing: -2px;
+      line-height: 125px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 110px;
+    }
+
+    .title {
+      font-size: 44px;
+    }
+  }
+
+  .info-boxes {
+    margin-top: 80px;
+
+    h4 {
+      margin-bottom: 25px;
+    }
+
+    .info-box {
+      .header {
+        font-size: 44px;
+        color: $primary-light;
+      }
+
+      .content {
+        display: flex;
+
+        & > p {
+          line-height: 88px;
+          font-size: 88px;
+          letter-spacing: -1.5px;
+          margin-right: 10px;
+        }
+
+        & > span {
+          font-size: 31px;
+          font-weight: 500;
+          letter-spacing: 0.5px;
+        }
+      }
+    }
+  }
+
+
+  // printers about
+  .printers-about {
+
+    .about {
+      font-size: 44px;
+    }
+
+    .header {
+      font-size: 31px;
+      font-weight: 500;
+    }
+
+    .info-desc {
+      margin-top: 85px;
+    }
+
+
+  }
+
+  // printers specifications
+  .printers-specifications {
+    .title {
+      font-size: 44px;
+    }
+
+    .description {
+      .header {
+        .list {
+          h4 {
+            font-size: 31px;
+            font-weight: 500;
+            letter-spacing: 0.25px;
+          }
+
+          ul {
+            list-style: circle;
+            margin-top: 25px;
+
+            li {
+              margin-top: 20px;
+              font-family: 'Manrope', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              letter-spacing: 0.5px;
+            }
+          }
+        }
+
+        img {
+          max-width: 700px;
+          width: 100%;
+        }
+      }
+
+      .info-boxes {
+        h4 {
+          font-size: 31px;
+          letter-spacing: 0.5px;
+        }
+
+        .header {
+          font-size: 31px;
+        }
+
+        .desc {
+          font-family: 'Manrope', sans-serif;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  // printers faq
+  .printers-faq {
+    .faq {
+      .faq-block {
+        margin-bottom: 80px;
+        .question {
+          font-size: 31px;
+          letter-spacing: 0.5px;
+          font-weight: 500;
+          margin-bottom: 25px;
+        }
+        .answer {
+          font-family: 'Manrope', sans-serif;
+          font-size: 16px;
+          letter-spacing: 0.5px;
+          ul {
+            list-style: circle;
+            padding-left: 20px;
+            li:not(:last-child) {
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+
+
+}
+
+//
+
 
 // footer
 footer {

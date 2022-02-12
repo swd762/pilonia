@@ -13,7 +13,7 @@ Template Name: Home Page
                 <div class="products">
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
-                            <a href="#" class="product-card printer">
+                            <a href="/4d-printer" class="product-card printer">
                                 <div class="description">
                                     <h3>4D printers</h3>
                                     <p>Pilonia printers are large-format portal COP-printer
@@ -95,7 +95,7 @@ Template Name: Home Page
                             </div>
                             <div class="col-xl-9">
                                 <div class="row">
-                                    <div class="col-12 col-xl-3 header-text">
+                                    <div class="col-12 col-xl-4 header-text">
                                         <div class="header">
                                             All structural elements
                                             were finally assembled,
@@ -106,7 +106,7 @@ Template Name: Home Page
                                             Field trials were completed successfully in&nbsp;full accordance with the calculations
                                         </div>
                                     </div>
-                                    <div class="col-12 col-xl-9 header-pic">
+                                    <div class="col-12 col-xl-8 header-pic">
                                         <img src="<?php echo get_template_directory_uri() . '/images/news-1-head.jpg' ?>" alt="">
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ Template Name: Home Page
                             </div>
                             <div class="col-xl-9">
                                 <div class="row">
-                                    <div class="col-12 col-xl-3 header-text">
+                                    <div class="col-12 col-xl-4 header-text">
                                         <div class="header">
                                             The tests of a concrete
                                             mixture held place.
@@ -153,7 +153,7 @@ Template Name: Home Page
                                             via 3D printing.
                                         </div>
                                     </div>
-                                    <div class="col-12 col-xl-9 header-pic">
+                                    <div class="col-12 col-xl-8 header-pic">
                                         <img src="<?php echo get_template_directory_uri() . '/images/news-2-head.jpg' ?>" alt="">
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@ Template Name: Home Page
                             </div>
                             <div class="col-xl-9">
                                 <div class="row">
-                                    <div class="col-12 col-xl-3 header-text">
+                                    <div class="col-12 col-xl-4 header-text">
                                         <div class="header">
                                             The construction of the
                                             facility has begun
@@ -188,7 +188,7 @@ Template Name: Home Page
                                             was printed.
                                         </div>
                                     </div>
-                                    <div class="col-12 col-xl-9 header-pic">
+                                    <div class="col-12 col-xl-8 header-pic">
                                         <img src="<?php echo get_template_directory_uri() . '/images/news-3-head.jpg' ?>" alt="">
                                     </div>
                                 </div>
