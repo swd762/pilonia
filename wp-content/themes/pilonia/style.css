@@ -87,6 +87,7 @@ header.scroll-version {
 }
 .main-menu .navbar .menu-icon {
   text-align: center;
+  cursor: pointer;
 }
 .main-menu .menu-icon__line {
   height: 2px;
@@ -125,7 +126,72 @@ header.scroll-version {
   width: 100%;
   height: 100vh;
   flex-direction: column;
-  z-index: 3;
+  z-index: 100;
+  overflow-y: scroll;
+}
+.nav .nav-wrapper .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.nav .nav-wrapper .header .close-btn {
+  cursor: pointer;
+}
+.nav .nav-wrapper .content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.nav .nav-wrapper .content ul {
+  margin-bottom: 20px;
+}
+.nav .nav-wrapper .content ul li {
+  font-size: 20px;
+}
+.nav .nav-wrapper .content ul li a {
+  text-decoration: none;
+  color: #FDFDFC;
+}
+.nav .nav-wrapper .content ul li:first-child {
+  font-size: 40px;
+  font-weight: 400;
+}
+.nav .nav-wrapper .footer {
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nav .nav-wrapper .footer .tel {
+  display: flex;
+  flex-shrink: 0;
+  margin-bottom: 15px;
+}
+.nav .nav-wrapper .footer .email {
+  display: flex;
+  flex-shrink: 0;
+  margin-bottom: 15px;
+}
+.nav .nav-wrapper .footer .socials {
+  display: flex;
+  flex-shrink: 0;
+  margin-bottom: 15px;
+}
+.nav .nav-wrapper .footer .socials > a:not(:last-child) {
+  margin-right: 5px;
+}
+.nav .nav-wrapper .footer .socials img {
+  width: 100%;
+}
+@media (max-width: 720px) {
+  .nav .nav-wrapper .content {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .nav .nav-wrapper .content ul {
+    margin-bottom: 10px;
+  }
 }
 
 .opened {
@@ -509,9 +575,20 @@ header.scroll-version {
   margin-bottom: 60px;
 }
 #printers-page .block .title {
-  font-size: 44px;
+  font-size: 38px;
+}
+@media (max-width: 1199px) {
+  #printers-page .block .description .list {
+    margin-bottom: 20px;
+  }
+  #printers-page .block .description .list ul {
+    padding-left: 20px;
+  }
 }
 @media (max-width: 720px) {
+  #printers-page .block .description {
+    margin-top: 20px;
+  }
   #printers-page .block h2 {
     font-size: 70px;
     line-height: 70px;
@@ -593,6 +670,28 @@ header.scroll-version {
   }
   #printers-page .info-boxes .info-box {
     margin-top: 15px;
+  }
+  #printers-page .info-boxes .info-box .short-desc {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 520px) {
+  #printers-page .info-boxes .info-box .header {
+    font-size: 18px;
+  }
+  #printers-page .info-boxes .info-box .content > p {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  #printers-page .info-boxes .info-box .content > span {
+    font-size: 20px;
+  }
+  #printers-page .info-boxes .info-box .content-metric > p {
+    font-size: 20px;
+  }
+  #printers-page .info-boxes .info-box .content-metric > span {
+    font-size: 15px;
   }
 }
 #printers-page .info-boxes-pic {
@@ -689,13 +788,13 @@ header.scroll-version {
   margin-bottom: 20px;
 }
 #printers-page .printers-faq .faq .faq-block {
-  margin-bottom: 80px;
+  margin-bottom: 35px;
 }
 #printers-page .printers-faq .faq .faq-block .question {
-  font-size: 31px;
+  font-size: 28px;
   letter-spacing: 0.5px;
   font-weight: 500;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 #printers-page .printers-faq .faq .faq-block .answer {
   font-family: "Manrope", sans-serif;
@@ -707,7 +806,7 @@ header.scroll-version {
   padding-left: 20px;
 }
 #printers-page .printers-faq .faq .faq-block .answer ul li:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 footer {

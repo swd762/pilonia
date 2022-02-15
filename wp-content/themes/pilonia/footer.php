@@ -45,17 +45,17 @@
                             </div>
                             <div class="content">
                                 <div class="phone">
-                                    +1 201 989 74 55
+                                    843-PILONIA (745-6642)
                                 </div>
                                 <div class="email">
                                     info@pilonia.com
                                 </div>
-                                <div class="address">
-                                    <p>PILONIA</p>
-                                    <p>67 35th Street, Office C-250</p>
-                                    <p>Brooklyn, NY 11232</p>
-                                    <p>United States</p>
-                                </div>
+<!--                                <div class="address">-->
+<!--                                    <p>PILONIA</p>-->
+<!--                                    <p>67 35th Street, Office C-250</p>-->
+<!--                                    <p>Brooklyn, NY 11232</p>-->
+<!--                                    <p>United States</p>-->
+<!--                                </div>-->
                             </div>
                         </div>
                     </div>

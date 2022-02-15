@@ -38,7 +38,8 @@
                                   transform="translate(1410.008 -564.876)" fill="#189d85" fill-rule="evenodd"/>
                             <path id="Контур_9" data-name="Контур 9" d="M-1363.744,802.159a2.2,2.2,0,0,0-.8-3,2.2,2.2,0,0,0-3,.805,2.2,2.2,0,0,0,.805,3,2.2,2.2,0,0,0,3-.805Z"
                                   transform="translate(1410.008 -762.349)" fill="#189d85" fill-rule="evenodd"/>
-                            <path id="Контур_10" data-name="Контур 10" d="M-1557.741,909.769a2.2,2.2,0,0,0-2.2,2.2,2.2,2.2,0,0,0,2.2,2.2,2.2,2.2,0,0,0,2.2-2.2,2.2,2.2,0,0,0-2.2-2.2Z"
+                            <path id="Контур_10" data-name="Контур 10"
+                                  d="M-1557.741,909.769a2.2,2.2,0,0,0-2.2,2.2,2.2,2.2,0,0,0,2.2,2.2,2.2,2.2,0,0,0,2.2-2.2,2.2,2.2,0,0,0-2.2-2.2Z"
                                   transform="translate(1581.021 -861.088)" fill="#189d85" fill-rule="evenodd"/>
                             <path id="Контур_11" data-name="Контур 11" d="M-1747.935,799.96a2.2,2.2,0,0,0-3-.805,2.2,2.2,0,0,0-.805,3,2.2,2.2,0,0,0,3,.805,2.2,2.2,0,0,0,.805-3Z"
                                   transform="translate(1752.04 -762.349)" fill="#189d85" fill-rule="evenodd"/>
@@ -66,7 +67,7 @@
                 </svg>
             </a>
             <div class="top_shortcuts md-hidden">
-                <a href="#" class="">+1 201 989 74 55</a>
+                <a href="#" class="">843-PILONIA (745-6642)</a>
                 <a href="#" class="">info@pilonia.com</a>
             </div>
             <div class="menu-icon">
@@ -77,68 +78,88 @@
         </div>
     </div>
 </header>
-<div class="container">
-    <div class="nav">
-        <div class="nav__content">
-            <ul class="nav__list">
-                <li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>
-                <li class="nav__list-item"><a href="#" class="hover-target">studio</a></li>
-                <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>
-                <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>
-            </ul>
+
+<div class="nav">
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="header">
+                <div class="logo">
+                    <img src="<?php echo get_template_directory_uri() . '/images/logo-light.svg' ?>" alt="">
+                </div>
+                <div class="close-btn">
+                    <img src="<?php echo get_template_directory_uri() . '/images/close.svg' ?>" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-xl-3 col-md-3">
+
+                    </div>
+                    <div class="col-xl-9 col-md-9 col-sm-12">
+                        <div class="row">
+                            <div class="col-xl-4 col-md-4">
+                                <ul>
+                                    <li><a href="#">Technology</a></li>
+                                    <li><a href="#">4D printer’s</a>4</li>
+                                    <li><a href="#">Printing houses</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-4 col-md-4">
+                                <ul>
+                                    <li><a href="#">Partnerships</a></li>
+                                    <li><a href="#">Community developers</a></li>
+                                    <li><a href="#">Architects</a></li>
+                                    <li><a href="#">Real estate developers</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-4 col-md-4">
+                                <ul>
+                                    <li><a href="#">Investment</a></li>
+                                    <li><a href="#">Community developers</a></li>
+                                    <li><a href="#">Architects</a></li>
+                                    <li><a href="#">Real estate developers</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-4 col-md-4">
+                                <ul>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">First</a></li>
+                                    <li><a href="#">Second</a></li>
+                                    <li><a href="#">Third</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-4 col-md-4">
+                                <ul>
+                                    <li><a href="#">Get involved</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="footer">
+                <div class="tel">
+                    843-PILONIA (745-6642)
+                </div>
+                <div class="email">
+                    info@3pilonia.com
+                </div>
+                <div class="socials">
+                    <a href="#"><img src="<?php echo get_template_directory_uri() . '/images/icons/facebook-light.svg' ?>" alt=""></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri() . '/images/icons/insta-light.svg' ?>" alt=""></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri() . '/images/icons/twitter-light.svg' ?>" alt=""></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri() . '/images/icons/youtube-light.svg' ?>" alt=""></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri() . '/images/icons/linked-light.svg' ?>" alt=""></a>
+                </div>
+            </div>
         </div>
+
     </div>
 
 </div>
 
-<!--<div class="nav">-->
-<!--    <div class="nav__content">-->
-<!--        <ul class="nav__list">-->
-<!--            <li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>-->
-<!--            <li class="nav__list-item"><a href="#" class="hover-target">studio</a></li>-->
-<!--            <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>-->
-<!--            <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>-->
-<!--        </ul>-->
-<!--    </div>-->
-<!--    <div class="nav-footer">-->
-<!--        <div>-->
-<!--            +1 201 989 74 55-->
-<!--        </div>-->
-<!--        <div>-->
-<!--            info@3pilonia.com-->
-<!--        </div>-->
-<!--        <div>-->
-<!--            socials-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
-<!--<div id="header">-->
-<!--    <div class="navbar container d-flex flex-wrap">-->
-<!--        <a href="/" class="logo">-->
-<!--            <img src="--><?php //echo get_template_directory_uri() . '/images/logo.svg' ?><!--" alt="logo">-->
-<!--        </a>-->
-<!--                <div class="col d-lg-flex xl-pl-20" id="menu-top">-->
-<!---->
-<!--                </div>-->
-<!--        <a href="#" class="top_shortcuts">+1 201 989 74 55</a>-->
-<!--        <a href="#" class="top_shortcuts">info@pilonia.com</a>-->
-<!--        <div class="menu-icon hover-target">-->
-<!--            <span class="menu-icon__line menu-icon__line-left"></span>-->
-<!--            <span class="menu-icon__line"></span>-->
-<!--            <span class="menu-icon__line menu-icon__line-right"></span>-->
-<!--        </div>-->
-<!---->
-<!--        <div class="nav">-->
-<!--            <div class="nav__content">-->
-<!--                <ul class="nav__list">-->
-<!--                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>-->
-<!--                    <li class="nav__list-item"><a href="#" class="hover-target">studio</a></li>-->
-<!--                    <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>-->
-<!--                    <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
 
 <script>
 
@@ -147,40 +168,20 @@
         let menuBtn = document.querySelector('.menu-icon');
         let nav = document.querySelector('.nav');
         let body = document.querySelector('body');
+        let closeBtn = document.querySelector('.close-btn');
 
         menuBtn.addEventListener('click', function () {
             nav.classList.add('opened');
             body.classList.add('nav-opened');
         });
+
+        closeBtn.addEventListener('click', function () {
+            nav.classList.remove('opened');
+            body.classList.remove('nav-opened');
+        })
     }
 
     app();
-
-
-    // var app = function () {
-    //     var body = undefined;
-    //     var menu = undefined;
-    //     var menuItems = undefined;
-    //     var init = function init() {
-    //         body = document.querySelector('body');
-    //         menu = document.querySelector('.menu-icon');
-    //         menuBar = document.querySelector('.main-menu')
-    //         menuItems = document.querySelectorAll('.nav__list-item');
-    //         applyListeners();
-    //     };
-    //     var applyListeners = function applyListeners() {
-    //         menu.addEventListener('click', function () {
-    //             toggleClass(body, 'nav-active');
-    //             // menuBar.classList.remove('background-version');
-    //         });
-    //     };
-    //     var toggleClass = function toggleClass(element, stringClass) {
-    //         if (element.classList.contains(stringClass)) element.classList.remove(stringClass); else element.classList.add(stringClass);
-    //     };
-    //     init();
-    // }();
-
-
 </script>
 <?php
 //	        wp_nav_menu( [

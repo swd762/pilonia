@@ -90,7 +90,7 @@ Template Name: Printers Page
                                         Printing of MAF, structural elements and buildings
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 col-6 info-box">
                                     <div class="header">
                                         with an area of up to
                                     </div>
@@ -105,7 +105,7 @@ Template Name: Printers Page
                                         <span>m<sup>2</sup></span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 col-6 info-box">
                                     <div class="header">
                                         and a volume of up to
                                     </div>
@@ -134,7 +134,7 @@ Template Name: Printers Page
                                 <div class="col-xl-12">
                                     <h4>Print area</h4>
                                 </div>
-                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 col-4 info-box">
                                     <div class="header">
                                         width
                                     </div>
@@ -151,7 +151,7 @@ Template Name: Printers Page
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 col-4 info-box">
                                     <div class="header">
                                         length
                                     </div>
@@ -168,7 +168,7 @@ Template Name: Printers Page
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 col-4 info-box">
                                     <div class="header">
                                         height
                                     </div>
@@ -190,7 +190,7 @@ Template Name: Printers Page
                                 <div class="col-xl-12">
                                     <h4>Dimensions</h4>
                                 </div>
-                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 col-4 info-box">
                                     <div class="header">
                                         width
                                     </div>
@@ -207,7 +207,7 @@ Template Name: Printers Page
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 col-4 info-box">
                                     <div class="header">
                                         length
                                     </div>
@@ -224,7 +224,7 @@ Template Name: Printers Page
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 col-4 info-box">
                                     <div class="header">
                                         height
                                     </div>
@@ -254,7 +254,7 @@ Template Name: Printers Page
                                 <div class="col-xl-12">
                                     <h4>X Y axis drives</h4>
                                 </div>
-                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 col-6 info-box">
                                     <div class="header">
                                         stepper motors
                                     </div>
@@ -265,7 +265,7 @@ Template Name: Printers Page
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 col-6 info-box">
                                     <div class="header">
                                         with planetary gears
                                     </div>
@@ -278,7 +278,7 @@ Template Name: Printers Page
                                 <div class="col-xl-12">
                                     <h4>Z-axis drives</h4>
                                 </div>
-                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 col-6 info-box">
                                     <div class="header">
                                         stepper motors
                                     </div>
@@ -289,7 +289,7 @@ Template Name: Printers Page
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 col-6 info-box">
                                     <div class="header">
                                         with worm gears
                                     </div>
@@ -345,7 +345,7 @@ Template Name: Printers Page
                                 <div class="col-xl-12">
                                     <h4>Mixture laying accuracy</h4>
                                 </div>
-                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 col-6 info-box">
                                     <div class="header">
                                         from
                                     </div>
@@ -362,7 +362,7 @@ Template Name: Printers Page
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 col-6 info-box">
                                     <div class="header">
                                         to
                                     </div>

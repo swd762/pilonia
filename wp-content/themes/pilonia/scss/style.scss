@@ -116,6 +116,7 @@ header.scroll-version {
 
     .menu-icon {
       text-align: center;
+      cursor: pointer;
     }
   }
 
@@ -161,10 +162,89 @@ header.scroll-version {
   transition: all 0.3s ease;
   width: 100%;
   height: 100vh;
-  //padding: 15px 0 0;
   flex-direction: column;
-  //overflow-y: scroll;
-  z-index: 3;
+  z-index: 100;
+  overflow-y: scroll;
+
+  .nav-wrapper {
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+
+      .close-btn {
+        cursor: pointer;
+      }
+    }
+
+    .content {
+      margin-top: 100px;
+      margin-bottom: 100px;
+
+      ul {
+        li {
+          font-size: 20px;
+
+          a {
+            text-decoration: none;
+            color: $background-light;
+          }
+        }
+
+        li:first-child {
+          font-size: 40px;
+          font-weight: 400;
+        }
+
+        margin-bottom: 20px;
+      }
+    }
+
+    .footer {
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .tel {
+        display: flex;
+        flex-shrink: 0;
+        margin-bottom: 15px;
+      }
+
+      .email {
+        display: flex;
+        flex-shrink: 0;
+        margin-bottom: 15px;
+      }
+
+      .socials {
+        display: flex;
+        flex-shrink: 0;
+        margin-bottom: 15px;
+
+        & > a:not(:last-child) {
+          margin-right: 5px;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    @media (max-width: 720px) {
+      .content {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        ul {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
 }
 
 .opened {
@@ -634,10 +714,24 @@ header.scroll-version {
     }
 
     .title {
-      font-size: 44px;
+      font-size: 38px;
     }
 
+    @media(max-width: 1199px) {
+      .description {
+        .list {
+          margin-bottom: 20px;
+
+          ul {
+            padding-left: 20px;
+          }
+        }
+      }
+    }
     @media(max-width: 720px) {
+      .description {
+        margin-top: 20px;
+      }
       h2 {
         font-size: 70px;
         line-height: 70px;
@@ -737,8 +831,40 @@ header.scroll-version {
       margin-top: 25px;
       .info-box {
         margin-top: 15px;
-      }
 
+        .short-desc {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+    @media (max-width: 520px) {
+      .info-box {
+        .header {
+          font-size: 18px;
+        }
+
+        .content {
+          & > p {
+            font-size: 45px;
+            line-height: 60px;
+          }
+
+          & > span {
+            font-size: 20px;
+          }
+        }
+
+        .content-metric {
+          & > p {
+            font-size: 20px;
+          }
+
+          & > span {
+            font-size: 15px;
+          }
+        }
+      }
     }
   }
 
@@ -883,13 +1009,13 @@ header.scroll-version {
   .printers-faq {
     .faq {
       .faq-block {
-        margin-bottom: 80px;
+        margin-bottom: 35px;
 
         .question {
-          font-size: 31px;
+          font-size: 28px;
           letter-spacing: 0.5px;
           font-weight: 500;
-          margin-bottom: 25px;
+          margin-bottom: 10px;
         }
 
         .answer {
@@ -902,17 +1028,13 @@ header.scroll-version {
             padding-left: 20px;
 
             li:not(:last-child) {
-              margin-bottom: 20px;
+              margin-bottom: 5px;
             }
           }
         }
       }
     }
-
-
   }
-
-
 }
 
 //
