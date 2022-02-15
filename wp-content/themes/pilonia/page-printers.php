@@ -8,62 +8,37 @@ Template Name: Printers Page
 
     <div id="printers-page">
         <main>
+            <div class="printers-video">
+                <img src="<?php echo get_template_directory_uri() . '/images/printers-page-video.png' ?>" alt="">
+            </div>
             <div class="container">
+
                 <div class="printers-about block">
                     <h2>4D Printers</h2>
                     <div class="row">
-                        <div class="col-xl-3 about">
+                        <div class="col-xl-3 col-md-3 about">
                             About 4D Printers
                         </div>
-                        <div class="col-xl-9 info">
+                        <div class="col-xl-9 col-md-9 info">
                             <div class="header">
-                                Pilonia printers are large-format portal COP-printer with enhanced performance
-                                for printing elements of buildings, structures on foundations
-                            </div>
-                            <div class="row info-boxes">
-                                <div class="col-xl-4 info-box">
-                                    <div class="header">
-                                        with an area of
-                                    </div>
-                                    <div class="content">
-                                        <p>12×16</p>
-                                        <span>
-                                            meter's
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 info-box">
-                                    <div class="header">
-                                        and a height up to
-                                    </div>
-                                    <div class="content">
-                                        <p>8</p>
-                                        <span>
-                                            meter's
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 info-box">
-                                    <div class="header">
-                                        for
-                                    </div>
-                                    <div class="content">
-                                        <p>2</p>
-                                        <span>
-                                            story building
-                                            construction
-                                        </span>
-                                    </div>
-                                </div>
+                                Pilonia design and manufacture the next generation of 4D/3D printers and use nanomaterials to
+                                improve the modern construction process. We use 4D printers because we have control over
+                                the 3D printing area but can also control a fourth dimension. This is the composition of the
+                                printed shells by adding nanomaterials to uniquely address location-specific construction
+                                needs. For example - if the climate is hot, we add an insulating nanomaterial. If the area is
+                                prone to flooding, we add a water-resistant nanomaterial, etc. By using 2D materials, our
+                                process is not only accurate and fast, but we can also print improved housing and infrastructure
+                                that is stronger, more flexible, suffers less cracking and benefits from water, sun and saltwater
+                                resistance.
                             </div>
                             <div class="row info-desc">
-                                <div class="col-xl-4">
+                                <div class="col-xl-4 text">
                                     The printer can be expanded to include
                                     a high-pressure washer and a supply station for synchronized mortar mixes. The basic configuration comes with a control computer with
                                     pre-installed licensed software. The printer prints basic construction mixes on the cement series 400-500 and can use mixes with mineral
                                     and graphene additives.
                                 </div>
-                                <div class="col-xl-8">
+                                <div class="col-xl-8 pic">
                                     <img src="<?php echo get_template_directory_uri() . '/images/printer-pic.png' ?>" alt="">
                                 </div>
                             </div>
@@ -73,11 +48,11 @@ Template Name: Printers Page
                 <div class="printers-specifications block">
                     <h2>specifications</h2>
                     <div class="row">
-                        <div class="col-xl-3 title">
+                        <div class="col-xl-3 col-md-3 title">
                             Pilonia
                             attachment
                         </div>
-                        <div class="col-xl-9 description">
+                        <div class="col-xl-9 col-md-9 description">
                             <div class="row header">
                                 <div class="col-xl-4 col-12 list">
                                     <h4>Pilonia S7.1</h4>
@@ -115,30 +90,36 @@ Template Name: Printers Page
                                         Printing of MAF, structural elements and buildings
                                     </div>
                                 </div>
-
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
                                     <div class="header">
                                         with an area of up to
                                     </div>
                                     <div class="content">
-                                        <p>192</p>
+                                        <p>1000</p>
                                         <span>
-                                            m2
+                                            ft<sup>2</sup>
                                         </span>
                                     </div>
+                                    <div class="content-metric">
+                                        <p>192</p>
+                                        <span>m<sup>2</sup></span>
+                                    </div>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
                                     <div class="header">
                                         and a volume of up to
                                     </div>
                                     <div class="content">
-                                        <p>1330</p>
+                                        <p>46 250</p>
                                         <span>
-                                            m3
+                                            ft<sup>3</sup>
                                         </span>
                                     </div>
+                                    <div class="content-metric">
+                                        <p>1330</p>
+                                        <span>m<sup>3</sup></span>
+                                    </div>
                                 </div>
-
                             </div>
                             <div class="row info-boxes">
                                 <div class="col-xl-12">
@@ -149,37 +130,55 @@ Template Name: Printers Page
                                     </div>
                                 </div>
                             </div>
-                            <div class="row info-boxes">
+                            <div class="row info-boxes justify-content-end">
                                 <div class="col-xl-12">
                                     <h4>Print area</h4>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
                                     <div class="header">
                                         width
                                     </div>
                                     <div class="content">
+                                        <p>36</p>
+                                        <span>
+                                           ft
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
                                         <p>11500</p>
                                         <span>
                                            mm
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
                                     <div class="header">
                                         length
                                     </div>
                                     <div class="content">
+                                        <p>50</p>
+                                        <span>
+                                          ft
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
                                         <p>15500</p>
                                         <span>
                                           mm
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
                                     <div class="header">
                                         height
                                     </div>
                                     <div class="content">
+                                        <p>25</p>
+                                        <span>
+                                          ft
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
                                         <p>7500</p>
                                         <span>
                                           mm
@@ -187,37 +186,55 @@ Template Name: Printers Page
                                     </div>
                                 </div>
                             </div>
-                            <div class="row info-boxes">
+                            <div class="row info-boxes justify-content-end">
                                 <div class="col-xl-12">
                                     <h4>Dimensions</h4>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
                                     <div class="header">
                                         width
                                     </div>
                                     <div class="content">
+                                        <p>40</p>
+                                        <span>
+                                           ft
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
                                         <p>12500</p>
                                         <span>
                                            mm
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
                                     <div class="header">
                                         length
                                     </div>
                                     <div class="content">
+                                        <p>53</p>
+                                        <span>
+                                          ft
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
                                         <p>16500</p>
                                         <span>
                                           mm
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-4 col-sm-4 info-box">
                                     <div class="header">
                                         height
                                     </div>
                                     <div class="content">
+                                        <p>27</p>
+                                        <span>
+                                          ft
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
                                         <p>8200</p>
                                         <span>
                                           mm
@@ -237,7 +254,7 @@ Template Name: Printers Page
                                 <div class="col-xl-12">
                                     <h4>X Y axis drives</h4>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
                                     <div class="header">
                                         stepper motors
                                     </div>
@@ -248,7 +265,7 @@ Template Name: Printers Page
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
                                     <div class="header">
                                         with planetary gears
                                     </div>
@@ -261,7 +278,7 @@ Template Name: Printers Page
                                 <div class="col-xl-12">
                                     <h4>Z-axis drives</h4>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
                                     <div class="header">
                                         stepper motors
                                     </div>
@@ -272,9 +289,9 @@ Template Name: Printers Page
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
                                     <div class="header">
-                                        with planetary gears
+                                        with worm gears
                                     </div>
                                     <div class="content">
                                         <p>1:20</p>
@@ -282,33 +299,36 @@ Template Name: Printers Page
                                 </div>
                             </div>
                             <div class="row info-boxes-pic">
-                                <div class="col-xl-4">
+                                <div class="col-xl-4 info">
                                     <div class="row info-boxes">
-                                        <div class="col-xl-12">
-                                            <h4>Print head positioning
-                                                accuracy</h4>
-                                        </div>
-                                        <div class="col-xl-12 info-box">
-                                            <!--                                            <div class="header">-->
-                                            <!--                                                stepper motors-->
-                                            <!--                                            </div>-->
+                                        <div class="col-xl-12 col-md-6 col-sm-6 info-box">
+                                            <div class="title">
+                                                <h4>Print head positioning
+                                                    accuracy</h4>
+                                            </div>
                                             <div class="content">
-                                                <p>±0,1</p>
-                                                <span>
-                                           mm
-                                                </span>
+                                                <p>±1/10</p>
+                                                <span>in</span>
+                                            </div>
+                                            <div class="content-metric">
+                                                <p>±1,0</p>
+                                                <span>mm</span>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row info-boxes">
-                                        <div class="col-xl-12">
-                                            <h4>Positioning speed</h4>
-                                        </div>
-                                        <div class="col-xl-12 info-box">
+                                        <div class="col-xl-12 col-md-6 col-sm-6 info-box">
+                                            <div class="title">
+                                                <h4>Positioning speed</h4>
+                                            </div>
                                             <div class="header">
                                                 up to
                                             </div>
                                             <div class="content">
+                                                <p>20</p>
+                                                <span>
+                                                    in/s
+                                                </span>
+                                            </div>
+                                            <div class="content-metric">
                                                 <p>500</p>
                                                 <span>
                                            mm/s
@@ -317,7 +337,7 @@ Template Name: Printers Page
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-8">
+                                <div class="col-xl-8 pic">
                                     <img src="<?php echo get_template_directory_uri() . '/images/printer-spec-pic-1.png' ?>" alt="">
                                 </div>
                             </div>
@@ -325,66 +345,147 @@ Template Name: Printers Page
                                 <div class="col-xl-12">
                                     <h4>Mixture laying accuracy</h4>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
                                     <div class="header">
                                         from
                                     </div>
                                     <div class="content">
-                                        <p>±0,1</p>
+                                        <p>±1/10</p>
+                                        <span>
+                                          in
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
+                                        <p>±1,0</p>
                                         <span>
                                           mm
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
                                     <div class="header">
                                         to
                                     </div>
                                     <div class="content">
+                                        <p>±1/5</p>
+                                        <span>
+                                          in
+                                            <i>(depending on mixture)</i>
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
                                         <p>±2</p>
                                         <span>
                                           mm
-                                            (depending on mixture)
+                                             <i>(depending on mixture)</i>
                                         </span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row info-boxes">
-                                <div class="col-xl-12">
-                                    <h4>Mixing speed</h4>
-                                </div>
-                                <div class="col-xl-4 info-box">
+                            <div class="row info-boxes justify-content-end">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                    <div class="title">
+                                        <h4>Mixing speed</h4>
+                                    </div>
                                     <div class="header">
                                         up to
                                     </div>
                                     <div class="content">
+                                        <p>16</p>
+                                        <span>
+                                           in/s
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
                                         <p>300</p>
                                         <span>
                                            mm/s
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                    <div class="title">
+                                        <h4>Nozzle diameter</h4>
+                                    </div>
                                     <div class="header">
                                         (print line width)
                                     </div>
                                     <div class="content">
-                                        <p>20-50</p>
+                                        <p>1/2&nbsp;-&nbsp;2</p>
+                                        <span>
+                                           in
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
+                                        <p>20&nbsp;-&nbsp;50</p>
                                         <span>
                                            mm
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 info-box">
+                                <div class="col-xl-4 col-md-6 col-sm-6 info-box">
+                                    <div class="title">
+                                        <h4>Layer Height</h4>
+                                    </div>
                                     <div class="header">
-
+                                        &nbsp;
                                     </div>
                                     <div class="content">
-                                        <p>5-25</p>
+                                        <p>1/5&nbsp;-&nbsp;1</p>
+                                        <span>
+                                           in
+                                        </span>
+                                    </div>
+                                    <div class="content-metric">
+                                        <p>5&nbsp;-&nbsp;25</p>
                                         <span>
                                            mm
                                         </span>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="row info-boxes-pic">
+                                <div class="col-xl-4 info">
+                                    <div class="row info-boxes">
+                                        <div class="col-xl-12 info-box">
+                                            <div class="title">
+                                                <h4>Compatible materials</h4>
+                                            </div>
+                                            <div class="short-desc">
+                                                Sand concrete, gypsum concrete,
+                                                fiber-reinforced concrete, adobe
+                                                mixtures, chamotte clay.
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 info-box">
+                                            <div class="title">
+                                                <h4>Contents of delivery</h4>
+                                            </div>
+                                            <div class="short-desc">
+                                                Printer, tablet or laptop, software
+                                                distributions, system disk image, control
+                                                unit, passport, user manual in the
+                                                customer's language, transport
+                                                packaging, nozzle kit (12 pcs. of various
+                                                diameters and purposes, includes STL files
+                                                for nozzle manufacturing).
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 info-box">
+                                            <div class="title">
+                                                <h4>Additional options</h4>
+                                            </div>
+                                            <div class="short-desc">
+                                                Mortar pump, mortar pump hoses, high
+                                                pressure washer, video surveillance system.
+                                                Climate control of the control unit for
+                                                regions with difficult climatic conditions.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8 pic">
+                                    <img src="<?php echo get_template_directory_uri() . '/images/printer-spec-pic-2.png' ?>" alt="">
                                 </div>
                             </div>
                         </div>

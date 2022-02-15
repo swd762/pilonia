@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Oswald:wght@400;500&display=swap");
+.container {
+  max-width: 1440px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -57,6 +66,7 @@ header.scroll-version {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 70px;
 }
 .main-menu .navbar .logo {
   padding: 0;
@@ -77,8 +87,6 @@ header.scroll-version {
 }
 .main-menu .navbar .menu-icon {
   text-align: center;
-  /* border-radius: 0; */
-  /* padding-top: 12px; */
 }
 .main-menu .menu-icon__line {
   height: 2px;
@@ -144,17 +152,6 @@ header.scroll-version {
 
 .full-height {
   height: 100vh;
-}
-
-/* #Navigation
-================================================== */
-.container {
-  max-width: 1440px;
-}
-
-h3 {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .products {
@@ -501,35 +498,59 @@ h3 {
   min-height: 600px;
 }
 #printers-page .block {
-  margin-top: 195px;
+  margin-top: 60px;
 }
 #printers-page .block h2 {
-  font-size: 125px;
+  font-size: 107px;
   letter-spacing: -2px;
-  line-height: 125px;
+  line-height: 107px;
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 110px;
+  margin-bottom: 60px;
 }
 #printers-page .block .title {
   font-size: 44px;
 }
+@media (max-width: 720px) {
+  #printers-page .block h2 {
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 520px) {
+  #printers-page .block h2 {
+    font-size: 58px;
+    line-height: 58px;
+    margin-bottom: 25px;
+  }
+}
 #printers-page .info-boxes {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 #printers-page .info-boxes h4 {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  font-size: 31px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
 }
 #printers-page .info-boxes .info-box .header {
-  font-size: 44px;
+  font-size: 28px;
   color: #8D8D8D;
+}
+#printers-page .info-boxes .info-box .short-desc {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 #printers-page .info-boxes .info-box .content {
   display: flex;
 }
 #printers-page .info-boxes .info-box .content > p {
   line-height: 88px;
-  font-size: 88px;
+  font-size: 70px;
   letter-spacing: -1.5px;
   margin-right: 10px;
 }
@@ -538,49 +559,134 @@ h3 {
   font-weight: 500;
   letter-spacing: 0.5px;
 }
+#printers-page .info-boxes .info-box .content > span > i {
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Manrope", sans-serif;
+}
+#printers-page .info-boxes .info-box .content-metric {
+  display: flex;
+  color: #8D8D8D;
+}
+#printers-page .info-boxes .info-box .content-metric > p {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+#printers-page .info-boxes .info-box .content-metric > span {
+  margin-left: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+#printers-page .info-boxes .info-box .content-metric > span > i {
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+  font-style: normal;
+  font-family: "Manrope", sans-serif;
+}
+@media (max-width: 1199px) {
+  #printers-page .info-boxes {
+    margin-top: 25px;
+  }
+  #printers-page .info-boxes .info-box {
+    margin-top: 15px;
+  }
+}
+#printers-page .info-boxes-pic {
+  margin-top: 60px;
+}
+#printers-page .info-boxes-pic .info .info-boxes {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+#printers-page .info-boxes-pic .pic img {
+  width: 100%;
+  max-width: 700px;
+}
+#printers-page .printers-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+#printers-page .printers-video img {
+  width: 100%;
+  max-width: 1440px;
+}
 #printers-page .printers-about .about {
-  font-size: 44px;
+  font-size: 38px;
 }
 #printers-page .printers-about .header {
-  font-size: 31px;
+  font-size: 25px;
   font-weight: 500;
 }
 #printers-page .printers-about .info-desc {
-  margin-top: 85px;
+  margin-top: 50px;
+}
+#printers-page .printers-about .info-desc .text {
+  font-family: "Manrope", sans-serif;
+  letter-spacing: 0.5px;
+}
+#printers-page .printers-about .info-desc .pic {
+  display: flex;
+  justify-content: flex-end;
+}
+#printers-page .printers-about .info-desc .pic img {
+  width: 100%;
+  max-width: 700px;
+}
+@media (max-width: 1199px) {
+  #printers-page .printers-about .info-desc {
+    margin-top: 25px;
+  }
+  #printers-page .printers-about .info-desc .text {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 720px) {
+  #printers-page .printers-about .header {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  #printers-page .printers-about .info-desc {
+    margin-top: 25px;
+  }
+  #printers-page .printers-about .info-desc .text {
+    margin-bottom: 25px;
+  }
 }
 #printers-page .printers-specifications .title {
-  font-size: 44px;
+  font-size: 38px;
+  line-height: 50px;
 }
 #printers-page .printers-specifications .description .header .list h4 {
-  font-size: 31px;
+  font-size: 28px;
   font-weight: 500;
   letter-spacing: 0.25px;
 }
 #printers-page .printers-specifications .description .header .list ul {
   list-style: circle;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 #printers-page .printers-specifications .description .header .list ul li {
-  margin-top: 20px;
   font-family: "Manrope", sans-serif;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.5px;
 }
+#printers-page .printers-specifications .description .header .list ul li:not(:first-child) {
+  margin-top: 15px;
+}
 #printers-page .printers-specifications .description .header img {
   max-width: 700px;
   width: 100%;
 }
-#printers-page .printers-specifications .description .info-boxes h4 {
-  font-size: 31px;
-  letter-spacing: 0.5px;
-}
-#printers-page .printers-specifications .description .info-boxes .header {
-  font-size: 31px;
-}
 #printers-page .printers-specifications .description .info-boxes .desc {
   font-family: "Manrope", sans-serif;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 #printers-page .printers-faq .faq .faq-block {
   margin-bottom: 80px;

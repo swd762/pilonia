@@ -41,7 +41,7 @@
                     <div class="col-xl-4 col-md-4 col-sm-6 col-6">
                         <div class="contacts">
                             <div class="header">
-                                contact
+                                contacts
                             </div>
                             <div class="content">
                                 <div class="phone">
