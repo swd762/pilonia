@@ -28,7 +28,7 @@ Template Name: Home Page
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <a href="#" class="product-card homes">
+                            <a href="/homes" class="product-card homes">
                                 <div class="description">
                                     <h3>Our homes</h3>
                                     <p>3D printed home construction is achieved using a gantry style printer. A gantry style printer operates under the same guiding principles as a
