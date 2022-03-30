@@ -4,8 +4,7 @@ Template Name: Our homes
 */
 ?>
 
-<?php get_header('custom'); ?>
-
+<?php get_header( 'custom' ); ?>
 
     <div id="homes-page">
         <main>
@@ -25,6 +24,9 @@ Template Name: Our homes
                 <video autoplay loop muted id="homes-header-video">
                     <source src="<?php echo get_template_directory_uri() . '/images/videos/main_pilonia_short_02.mp4' ?>" type="video/mp4">
                 </video>
+                <div class="background-instead-video">
+
+                </div>
                 <a href="#" class="mouse-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 43">
                         <defs>
@@ -86,7 +88,7 @@ Template Name: Our homes
                                 </div>
                             </div>
                             <div class="row pic-desc">
-                                <div class="col-xl-9 pic-desc__desc">
+                                <div class="col-xl-9 col-md-6 pic-desc__desc">
                                     Pilonia is an eco-system where we remotely control the process of our robots and printing
                                     homes. We start with our own 4D/3D printer, and we are already in the process of releasing
                                     our own data and remote-control mixing unit. All our eco-system robots have the functionality
@@ -94,11 +96,9 @@ Template Name: Our homes
                                     We plan to implement sensors into construction, as we use 2D nanomaterials. Using 2D nano
                                     materials not only allows us to save cost and materials, but also to print better homes that have
                                     various beneficial properties: withstand hurricanes, earthquakes and wind; protect from UV;
-                                    benefit from salt and water resistance; and possess anti-cracking properties. Additionally,
-                                    the graphene that we use in the process is produced from natural materials, is eco-friendly,
-                                    and does not use any chemicals.
+                                    benefit from salt and water resistance; and possess anti-cracking properties.
                                 </div>
-                                <div class="col-xl-3 pic-desc__pic">
+                                <div class="col-xl-3 col-md-6 pic-desc__pic extra-space">
                                     <img src="<?php echo get_template_directory_uri() . '/images/our-homes-pic-desc-1.png' ?>" alt="">
                                 </div>
                             </div>
@@ -108,10 +108,10 @@ Template Name: Our homes
                                 </div>
                             </div>
                             <div class="row pic-desc">
-                                <div class="col-xl-3 pic-desc__pic">
+                                <div class="col-xl-3 col-md-6 col-sm-6 pic-desc__pic">
                                     <img src="<?php echo get_template_directory_uri() . '/images/our-homes-pic-desc-2.svg' ?>" alt="">
                                 </div>
-                                <div class="col-xl-9 pic-desc__desc">
+                                <div class="col-xl-9 col-md-6 col-sm-6 pic-desc__desc">
                                     We are implementing an AI driven video analytics software to protect the area where our robots
                                     are working for safety and analytical reasons. We also use customer design coating, based
                                     on nanomaterial, to control environments in printed homes, making it cooler in hot weather
@@ -137,7 +137,7 @@ Template Name: Our homes
                                     entities around the world are currently looking for a solution by using 3D printers
                                     to contract homes for their population.
                                 </div>
-                                <div class="col-xl-8 col-12 pic-desc__pic">
+                                <div class="col-xl-8 col-12 pic-desc__pic extra-space">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-affordable-1.jpg' ?>" alt="">
                                 </div>
                             </div>
@@ -148,7 +148,7 @@ Template Name: Our homes
                                     entities around the world are currently looking for a solution by using 3D printers
                                     to contract homes for their population.
                                 </div>
-                                <div class="col-xl-4 col-12 pic-desc__pic">
+                                <div class="col-xl-4 col-12 pic-desc__pic extra-space">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-affordable-2.jpg' ?>" alt="">
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ Template Name: Our homes
                                 <div class="col-xl-4 col-12 pic-desc__pic">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-affordable-3.jpg' ?>" alt="">
                                 </div>
-                                <div class="col-xl-4 col-12 pic-desc__pic">
+                                <div class="col-xl-4 col-12 pic-desc__pic extra-space">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-affordable-4.jpg' ?>" alt="">
                                 </div>
                             </div>
@@ -169,10 +169,10 @@ Template Name: Our homes
                                 <div class="col-xl-4 col-12 pic-desc__pic">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-affordable-6.jpg' ?>" alt="">
                                 </div>
-                                <div class="col-xl-4 col-12 pic-desc__pic">
+                                <div class="col-xl-4 col-12 pic-desc__pic extra-space">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-affordable-7.jpg' ?>" alt="">
                                 </div>
-                                <div class="col-xl-4 col-12 pic-desc__pic">
+                                <div class="col-xl-4 col-12 pic-desc__pic extra-space">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-affordable-8.jpg' ?>" alt="">
                                 </div>
                             </div>
@@ -180,12 +180,12 @@ Template Name: Our homes
                                 <div class="col-xl-12 title">
                                     Leave request for a personal presentation
                                 </div>
-                                <div class="col-xl-12">
-                                    <a href="#" class="btn-offer">
-                                        <span>get an offer</span>
-                                        <img src="<?php echo get_template_directory_uri() . '/images/arrow-right-light.svg' ?>" alt="">
-                                    </a>
-                                </div>
+<!--                                <div class="col-xl-12">-->
+<!--                                    <a href="#" class="btn-offer">-->
+<!--                                        <span>get an offer</span>-->
+<!--                                        <img src="--><?php //echo get_template_directory_uri() . '/images/arrow-right-light.svg' ?><!--" alt="">-->
+<!--                                    </a>-->
+<!--                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -197,13 +197,19 @@ Template Name: Our homes
                         </div>
                         <div class="col-xl-9 col-md-9 description">
                             <div class="row pic-desc">
+                                <div class="col-xl-12 col-12 pic-desc__title">
+                                    With the pandemic changing working environments globally, youngsters can work from
+                                    home and in remote locations, avowing high price households like in Silicon Valley.
+                                </div>
+                            </div>
+                            <div class="row pic-desc">
                                 <div class="col-xl-4 col-12 pic-desc__desc">
                                     There is increasing demand for inexpensive living in remote locations in Texas, Arizona, California, Florida, Nevada, Mexico (Baja, Yakatan),
                                     Europe (Portugal, Spain) and the Caribbean islands. Pilonia designs not
                                     only “cool” modern homes for youngsters (you don't need to construct boxes, 3D printer allows the construction of curves and other interesting
                                     construction elements), but also designs plans for eco-friendly communities, where homes can be printed “on demand”.
                                 </div>
-                                <div class="col-xl-8 col-12 pic-desc__pic">
+                                <div class="col-xl-8 col-12 pic-desc__pic extra-space">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-nextgen-1.jpg' ?>" alt="">
                                 </div>
                             </div>
@@ -211,10 +217,10 @@ Template Name: Our homes
                                 <div class="col-xl-4 col-12 pic-desc__pic">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-affordable-2.jpg' ?>" alt="">
                                 </div>
-                                <div class="col-xl-4 col-12 pic-desc__pic">
+                                <div class="col-xl-4 col-12 pic-desc__pic extra-space">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-affordable-3.jpg' ?>" alt="">
                                 </div>
-                                <div class="col-xl-4 col-12 pic-desc__pic">
+                                <div class="col-xl-4 col-12 pic-desc__pic extra-space">
                                     <img src="<?php echo get_template_directory_uri() . '/images/homes-affordable-4.jpg' ?>" alt="">
                                 </div>
                             </div>
@@ -222,12 +228,12 @@ Template Name: Our homes
                                 <div class="col-xl-12 title">
                                     Leave request for a personal presentation
                                 </div>
-                                <div class="col-xl-12">
-                                    <a href="#" class="btn-offer">
-                                        <span>get an offer</span>
-                                        <img src="<?php echo get_template_directory_uri() . '/images/arrow-right-light.svg' ?>" alt="">
-                                    </a>
-                                </div>
+<!--                                <div class="col-xl-12">-->
+<!--                                    <a href="#" class="btn-offer">-->
+<!--                                        <span>get an offer</span>-->
+<!--                                        <img src="--><?php //echo get_template_directory_uri() . '/images/arrow-right-light.svg' ?><!--" alt="">-->
+<!--                                    </a>-->
+<!--                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -236,8 +242,6 @@ Template Name: Our homes
                     <h2>FAQ</h2>
                     <div class="row">
                         <div class="col-xl-2 title">
-                            <!--                            Popular-->
-                            <!--                            questions-->
                         </div>
                         <div class="col-xl-1">
 
@@ -290,7 +294,7 @@ Template Name: Our homes
                                     </div>
                                     <div class="answer">
                                         The fixed formwork is printed using sand-concrete mixtures and the walls are filled with cellular concrete. You can also use concrete
-                                        strength-increasing additives such as graphene, which reduces the amount of cement in the mixture while maintaining its strength properties.
+                                        strength-increasing additives , which reduces the amount of cement in the mixture while maintaining its strength properties.
                                         In the future, we plan to utilize other construction materials like recycled plastic, hemp, clay, rice, wood and others.
                                     </div>
                                 </div>
@@ -331,7 +335,7 @@ Template Name: Our homes
                                         Can toilets, bathrooms, kitchen countertops and cabinets be printed?
                                     </div>
                                     <div class="answer">
-                                        Since we use nano materials like graphene that make the product stronger and lighter, we are developing next generation printers that will
+                                        Since we use nano materials that make the product stronger and lighter, we are developing next generation printers that will
                                         be able to print it.
                                     </div>
                                 </div>
@@ -383,15 +387,6 @@ Template Name: Our homes
                                 </div>
                                 <div class="col-xl-12 faq-block">
                                     <div class="question">
-                                        Why use graphene in 4D printing?
-                                    </div>
-                                    <div class="answer">
-                                        Adding graphene into concrete, by even a small amount such as 0.5 %, increases compression strength by 25-75 %, flex strength by 15-25 %,
-                                        water permeability up to 85 %, improves sun, water, salt resistance, as well as anti-cracking properties of concrete.
-                                    </div>
-                                </div>
-                                <div class="col-xl-12 faq-block">
-                                    <div class="question">
                                         Do you use nanotubes in your printing process?
                                     </div>
                                     <div class="answer">
@@ -403,7 +398,7 @@ Template Name: Our homes
                                         Do you print floating structure as well as water resistance barriers and marines?
                                     </div>
                                     <div class="answer">
-                                        By utilizing nano materials like graphene and nano tubes, we believe that 4D/3D printing can be a perfect application, especially those
+                                        By utilizing nano materials, we believe that 4D/3D printing can be a perfect application, especially those
                                         requiring water resistance and with complicated forms.
                                     </div>
                                 </div>

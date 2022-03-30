@@ -51,7 +51,7 @@
     function scrollNav() {
 
         var scroll = $(window).scrollTop();
-        console.log(scroll);
+        // console.log(scroll);
         if (scroll >= 20) {
             $(".main-menu").addClass("background-version");
         } else {
@@ -61,7 +61,7 @@
         if (scroll >= 50) {
             //scroll up or down
             var currentScroll = $(window).scrollTop();
-            console.log(currentScroll);
+            // console.log(currentScroll);
             if (currentScroll > previousScroll) {
                 $(".main-menu").addClass("scroll-version");
 

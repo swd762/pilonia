@@ -67,14 +67,14 @@
                 </svg>
             </a>
             <div class="top_shortcuts md-hidden">
-                <a href="#" class="">843-PILONIA (745-6642)</a>
-                <a href="#" class="">info@pilonia.com</a>
+                <a href="tel:+843-PILONIA (745-6642)">843-PILONIA (745-6642)</a>
+                <a href="mailto:info@pilonia.com">info@pilonia.com</a>
             </div>
-            <div class="menu-icon">
-                <span class="menu-icon__line menu-icon__line-left"></span>
-                <span class="menu-icon__line"></span>
-                <span class="menu-icon__line menu-icon__line-right"></span>
-            </div>
+<!--            <div class="menu-icon">-->
+<!--                <span class="menu-icon__line menu-icon__line-left"></span>-->
+<!--                <span class="menu-icon__line"></span>-->
+<!--                <span class="menu-icon__line menu-icon__line-right"></span>-->
+<!--            </div>-->
         </div>
     </div>
 </header>
@@ -170,15 +170,15 @@
         let body = document.querySelector('body');
         let closeBtn = document.querySelector('.close-btn');
 
-        menuBtn.addEventListener('click', function () {
-            nav.classList.add('opened');
-            body.classList.add('nav-opened');
-        });
+        // menuBtn.addEventListener('click', function () {
+        //     nav.classList.add('opened');
+        //     body.classList.add('nav-opened');
+        // });
 
-        closeBtn.addEventListener('click', function () {
-            nav.classList.remove('opened');
-            body.classList.remove('nav-opened');
-        })
+        // closeBtn.addEventListener('click', function () {
+        //     nav.classList.remove('opened');
+        //     body.classList.remove('nav-opened');
+        // })
     }
 
     app();

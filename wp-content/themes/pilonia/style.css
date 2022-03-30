@@ -52,14 +52,11 @@ body {
   letter-spacing: 1.25px;
   font-weight: bold;
   justify-content: space-between; }
-  .btn-offer:hover {
-    transition: 1s ease-in-out;
-    background: #4F95DA; }
 
 .faq .faq-block {
   margin-bottom: 35px; }
   .faq .faq-block .question {
-    font-size: 28px;
+    font-size: 31px;
     letter-spacing: 0.5px;
     font-weight: 500;
     margin-bottom: 10px; }
@@ -72,6 +69,127 @@ body {
       padding-left: 20px; }
       .faq .faq-block .answer ul li:not(:last-child) {
         margin-bottom: 5px; }
+
+.block {
+  margin-top: 140px; }
+  .block h2 {
+    font-size: 107px;
+    letter-spacing: -2px;
+    line-height: 107px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 90px; }
+  .block .title {
+    font-size: 38px; }
+  @media (max-width: 1199px) {
+    .block .description .list {
+      margin-bottom: 20px; }
+      .block .description .list ul {
+        padding-left: 20px; } }
+  @media (max-width: 720px) {
+    .block {
+      margin-top: 70px; }
+      .block .description {
+        margin-top: 20px; }
+      .block h2 {
+        font-size: 70px;
+        line-height: 70px;
+        margin-bottom: 25px; } }
+  @media (max-width: 520px) {
+    .block h2 {
+      font-size: 58px;
+      line-height: 58px;
+      margin-bottom: 25px; } }
+
+.banner-video {
+  position: relative;
+  height: 100vh;
+  width: 100%; }
+  .banner-video:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1; }
+  .banner-video video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%; }
+  .banner-video .background-instead-video {
+    background-image: url("images/products-homes1.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none; }
+  .banner-video .container {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2; }
+    .banner-video .container .title {
+      font-size: 22px;
+      color: #FDFDFC;
+      font-weight: 500;
+      text-transform: uppercase; }
+    .banner-video .container .body {
+      margin-top: 30px;
+      width: 50%;
+      font-size: 88px;
+      color: #FDFDFC;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: -1.5px; }
+    .banner-video .container .footer {
+      margin-top: 40px;
+      font-family: 'Manrope', sans-serif;
+      letter-spacing: 0.5px;
+      color: #D9D9D9; }
+  .banner-video .mouse-icon {
+    position: absolute;
+    z-index: 3;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; }
+    .banner-video .mouse-icon:after {
+      content: "";
+      height: 40px;
+      width: 2px;
+      left: 50%;
+      margin-left: -1px;
+      background: #f16622;
+      display: inline-block;
+      position: absolute;
+      bottom: -50px; }
+    .banner-video .mouse-icon svg {
+      display: block;
+      width: 24px; }
+  @media (max-width: 992px) {
+    .banner-video {
+      height: 70vh; }
+      .banner-video .container .body {
+        font-size: 36px;
+        margin-top: 15px; } }
+  @media (max-width: 520px) {
+    .banner-video video {
+      display: none; }
+    .banner-video .background-instead-video {
+      display: block; } }
 
 header.background-version {
   background-color: #FDFDFC;
@@ -216,25 +334,12 @@ header.scroll-version {
   overflow-x: hidden;
   overflow-y: hidden; }
 
-/* #Primary style
-================================================== */
-.section {
-  position: relative;
-  width: 100%;
-  display: block; }
-
-.over-hide {
-  overflow: hidden; }
-
-.full-height {
-  height: 100vh; }
-
 .products {
-  margin-top: 71px; }
+  margin-top: 100px; }
   .products .product-card {
     margin-top: 15px;
     position: relative;
-    min-height: 600px;
+    min-height: 700px;
     display: flex;
     background-color: #F3F4F6;
     transition: all 0.2s ease-out; }
@@ -297,144 +402,148 @@ header.scroll-version {
       .products .product-card .description span {
         font-size: 12px; } }
   .products .printer {
-    background-image: url("images/products-homes1.png");
-    background-position: center; }
+    background-image: url("images/products-printer.svg");
+    background-position: center;
+    background-size: cover; }
   .products .homes {
-    background: url("images/product-homes.png") center; }
+    background: url("images/products-homes.svg");
+    background-position: center;
+    background-size: cover; }
+  @media (max-width: 771px) {
+    .products {
+      margin-top: 75px; }
+      .products .product-card {
+        min-height: 600px; } }
 
-.about-us {
-  margin-top: 70px; }
-  .about-us h2 {
-    font-size: 107px;
-    font-weight: 400;
-    letter-spacing: -2px;
-    text-transform: uppercase;
-    margin-bottom: 60px; }
-  .about-us .subscribe {
-    font-size: 38px;
-    font-weight: 400; }
-    .about-us .subscribe .socials {
-      margin-top: 10px; }
-  .about-us .desc {
-    letter-spacing: 0.25px;
-    font-size: 25px;
-    font-weight: 500; }
-  .about-us .extra-info {
-    margin-top: 30px; }
-    .about-us .extra-info .label {
-      display: flex; }
-      .about-us .extra-info .label span:first-of-type {
-        font-size: 75px;
-        font-weight: 400;
-        line-height: 75px;
-        letter-spacing: -1.5px; }
-      .about-us .extra-info .label span:last-of-type {
-        font-size: 26px;
-        text-transform: uppercase;
-        font-weight: 500;
-        line-height: 40px;
-        color: #8D8D8D;
-        margin-left: 7px;
-        letter-spacing: 0.25px; }
-    .about-us .extra-info .text {
-      font-family: 'Manrope', sans-serif;
-      font-size: 14px;
+.about-us .subscribe {
+  font-size: 38px;
+  font-weight: 400; }
+  .about-us .subscribe .socials {
+    margin-top: 10px; }
+.about-us .desc {
+  letter-spacing: 0.25px;
+  font-size: 25px;
+  font-weight: 500; }
+.about-us .extra-info {
+  margin-top: 30px; }
+  .about-us .extra-info .label {
+    display: flex; }
+    .about-us .extra-info .label span:first-of-type {
+      font-size: 75px;
+      font-weight: 400;
+      line-height: 75px;
+      letter-spacing: -1.5px; }
+    .about-us .extra-info .label span:last-of-type {
+      font-size: 26px;
+      text-transform: uppercase;
+      font-weight: 500;
+      line-height: 40px;
       color: #8D8D8D;
-      font-weight: 400; }
-  .about-us .about-img {
-    margin-top: 60px; }
-    .about-us .about-img > img {
-      width: 100%; }
-  @media (max-width: 991px) {
-    .about-us .subscribe .socials {
-      margin-top: 0; }
-    .about-us .desc {
-      margin-top: 15px; } }
-  @media (max-width: 576px) {
-    .about-us {
-      margin-top: 25px; }
-      .about-us h2 {
-        font-size: 70px;
-        margin-bottom: 15px; }
-      .about-us .subscribe {
-        font-size: 30px; }
-      .about-us .desc {
-        font-size: 20px; }
-      .about-us .extra-info .label span:last-of-type {
-        font-size: 16px;
-        line-height: 18px;
-        margin-left: 5px; } }
-
-.news {
-  margin-top: 60px; }
-  .news h2 {
-    font-size: 107px;
-    font-weight: 400;
-    letter-spacing: -2px;
-    text-transform: uppercase; }
-  .news .news-item {
-    margin-top: 60px; }
-    .news .news-item .header-title {
-      font-size: 44px;
-      line-height: 52.8px; }
-    @media (max-width: 576px) {
-      .news .news-item {
-        margin-top: 15px; }
-        .news .news-item .header-title {
-          font-size: 35px;
-          line-height: 42.8px; } }
-  .news .header-text .header {
-    font-size: 31px;
-    font-weight: 500;
-    letter-spacing: 0.25px;
-    line-height: 40px; }
-  .news .header-text .desc {
-    margin-top: 25px;
+      margin-left: 7px;
+      letter-spacing: 0.25px; }
+  .about-us .extra-info .text {
     font-family: 'Manrope', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.5px; }
-  @media (max-width: 1199px) {
-    .news .header-text .header {
-      margin-top: 20px; } }
-  .news .header-pic {
-    display: flex;
-    justify-content: flex-end; }
-    .news .header-pic > img {
-      max-width: 700px;
-      width: 100%; }
-    @media (max-width: 1199px) {
-      .news .header-pic {
-        margin-top: 20px; } }
-  .news .news-gallery .gallery-pics {
-    margin-top: 30px; }
-    .news .news-gallery .gallery-pics > img {
-      max-width: 330px;
-      width: 100%; }
+    font-size: 14px;
+    color: #8D8D8D;
+    font-weight: 400; }
+.about-us .about-img {
+  margin-top: 60px; }
+  .about-us .about-img > img {
+    width: 100%; }
+@media (max-width: 991px) {
+  .about-us .subscribe .socials {
+    margin-top: 0; }
+  .about-us .desc {
+    margin-top: 15px; } }
+@media (max-width: 576px) {
+  .about-us .subscribe {
+    font-size: 30px; }
+  .about-us .desc {
+    font-size: 20px; }
+  .about-us .extra-info .label span:last-of-type {
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 5px; } }
+
+.video-about-wrapper {
+  position: relative;
+  height: 100vh;
+  margin-top: 50px; }
+  .video-about-wrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1; }
+  .video-about-wrapper .video-bg-container {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+    .video-about-wrapper .video-bg-container > video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      right: 0;
+      bottom: 0;
+      transform: translate(-50%, -50%);
+      min-height: 100%;
+      min-width: 100%; }
+
+.news .news-item {
+  margin-top: 60px; }
+  .news .news-item .header-title {
+    font-size: 44px;
+    line-height: 52.8px; }
   @media (max-width: 576px) {
-    .news {
-      margin-top: 15px; }
-      .news h2 {
-        font-size: 70px; }
-      .news .news-gallery .gallery-pics {
-        display: flex;
-        justify-content: center;
-        margin-top: 15px; } }
-  @media (max-width: 576px) and (max-width: 576px) {
-    .news .header-text .header {
-      font-size: 25px;
-      line-height: 27px;
-      margin-top: 10px; }
-    .news .header-text .desc {
-      margin-top: 10px; } }
+    .news .news-item .header-title {
+      font-size: 35px;
+      line-height: 42.8px; } }
+.news .header-text .header {
+  font-size: 31px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 40px; }
+.news .header-text .desc {
+  margin-top: 25px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px; }
+@media (max-width: 1199px) {
+  .news .header-text .header {
+    margin-top: 20px; } }
+.news .header-pic {
+  display: flex;
+  justify-content: flex-end; }
+  .news .header-pic > img {
+    width: 100%; }
+  @media (max-width: 1199px) {
+    .news .header-pic {
+      margin-top: 20px; } }
+.news .news-gallery .gallery-pics {
+  margin-top: 30px; }
+  .news .news-gallery .gallery-pics > img {
+    width: 100%; }
+@media (max-width: 576px) {
+  .news .news-gallery .gallery-pics {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; } }
+@media (max-width: 576px) and (max-width: 576px) {
+  .news .header-text .header {
+    font-size: 25px;
+    line-height: 27px;
+    margin-top: 10px; }
+  .news .header-text .desc {
+    margin-top: 10px; } }
 
 .contact-us {
-  margin-top: 70px;
   padding-bottom: 50px; }
-  .contact-us h2 {
-    font-size: 107px;
-    font-weight: 400;
-    letter-spacing: -2px;
-    text-transform: uppercase; }
   .contact-us .interesting {
     font-size: 38px;
     line-height: 40px; }
@@ -483,46 +592,17 @@ header.scroll-version {
     text-transform: uppercase;
     padding-left: 10px;
     padding-right: 10px;
-    color: #fff; }
+    color: #fff;
+    margin-top: 15px; }
   @media (max-width: 991px) {
     .contact-us .interesting {
       margin-bottom: 35px; } }
-  @media (max-width: 576px) {
-    .contact-us {
-      margin-top: 20px; }
-      .contact-us h2 {
-        font-size: 70px; } }
+  @media (max-width: 520px) {
+    .contact-us .instruction {
+      margin-bottom: 20px; } }
 
 #printers-page {
   min-height: 600px; }
-  #printers-page .block {
-    margin-top: 60px; }
-    #printers-page .block h2 {
-      font-size: 107px;
-      letter-spacing: -2px;
-      line-height: 107px;
-      font-weight: 400;
-      text-transform: uppercase;
-      margin-bottom: 60px; }
-    #printers-page .block .title {
-      font-size: 38px; }
-    @media (max-width: 1199px) {
-      #printers-page .block .description .list {
-        margin-bottom: 20px; }
-        #printers-page .block .description .list ul {
-          padding-left: 20px; } }
-    @media (max-width: 720px) {
-      #printers-page .block .description {
-        margin-top: 20px; }
-      #printers-page .block h2 {
-        font-size: 70px;
-        line-height: 70px;
-        margin-bottom: 25px; } }
-    @media (max-width: 520px) {
-      #printers-page .block h2 {
-        font-size: 58px;
-        line-height: 58px;
-        margin-bottom: 25px; } }
   #printers-page .info-boxes {
     margin-top: 40px; }
     #printers-page .info-boxes h4 {
@@ -552,7 +632,7 @@ header.scroll-version {
         letter-spacing: 0.5px; }
         #printers-page .info-boxes .info-box .content > span > i {
           display: block;
-          font-size: 16px;
+          font-size: 13px;
           font-style: normal;
           font-family: 'Manrope', sans-serif; }
     #printers-page .info-boxes .info-box .content-metric {
@@ -573,6 +653,8 @@ header.scroll-version {
           line-height: 12px;
           font-style: normal;
           font-family: 'Manrope', sans-serif; }
+    #printers-page .info-boxes .extra-space {
+      margin-top: 40px; }
     @media (max-width: 1199px) {
       #printers-page .info-boxes {
         margin-top: 25px; }
@@ -664,102 +746,6 @@ header.scroll-version {
 
 #homes-page {
   min-height: 600px; }
-  #homes-page .banner-video {
-    position: relative;
-    height: 100vh;
-    width: 100%; }
-    #homes-page .banner-video:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.4);
-      z-index: 1; }
-    #homes-page .banner-video video {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      min-width: 100%;
-      min-height: 100%; }
-    #homes-page .banner-video .container {
-      position: absolute;
-      flex-direction: column;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      z-index: 2; }
-      #homes-page .banner-video .container .title {
-        font-size: 22px;
-        color: #FDFDFC;
-        font-weight: 500;
-        text-transform: uppercase; }
-      #homes-page .banner-video .container .body {
-        margin-top: 30px;
-        width: 50%;
-        font-size: 88px;
-        color: #FDFDFC;
-        font-weight: 300;
-        text-transform: uppercase;
-        letter-spacing: -1.5px; }
-      #homes-page .banner-video .container .footer {
-        margin-top: 40px;
-        font-family: 'Manrope', sans-serif;
-        letter-spacing: 0.5px;
-        color: #D9D9D9; }
-    #homes-page .banner-video .mouse-icon {
-      position: absolute;
-      z-index: 3;
-      bottom: 50px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: auto; }
-      #homes-page .banner-video .mouse-icon:after {
-        content: "";
-        height: 40px;
-        width: 2px;
-        left: 50%;
-        margin-left: -1px;
-        background: #f16622;
-        display: inline-block;
-        position: absolute;
-        bottom: -50px; }
-      #homes-page .banner-video .mouse-icon svg {
-        display: block;
-        width: 24px; }
-  #homes-page .block {
-    margin-top: 60px; }
-    #homes-page .block h2 {
-      font-size: 107px;
-      letter-spacing: -2px;
-      line-height: 107px;
-      font-weight: 400;
-      text-transform: uppercase;
-      margin-bottom: 60px; }
-    #homes-page .block .title {
-      font-size: 38px; }
-    @media (max-width: 1199px) {
-      #homes-page .block .description .list {
-        margin-bottom: 20px; }
-        #homes-page .block .description .list ul {
-          padding-left: 20px; } }
-    @media (max-width: 720px) {
-      #homes-page .block .description {
-        margin-top: 20px; }
-      #homes-page .block h2 {
-        font-size: 70px;
-        line-height: 70px;
-        margin-bottom: 25px; } }
-    @media (max-width: 520px) {
-      #homes-page .block h2 {
-        font-size: 58px;
-        line-height: 58px;
-        margin-bottom: 25px; } }
   #homes-page .homes-about .info .label {
     display: flex; }
     #homes-page .homes-about .info .label span:first-of-type {
@@ -797,8 +783,22 @@ header.scroll-version {
       width: 100%;
       max-width: 330px;
       background-color: #F3F4F6; }
+  @media (max-width: 1199px) {
+    #homes-page .homes-about .info .desc {
+      margin-top: 25px; }
+    #homes-page .homes-about .info .pic {
+      margin-top: 25px; } }
+  @media (max-width: 720px) {
+    #homes-page .homes-about .info .pic-desc {
+      margin-top: 25px; }
+    #homes-page .homes-about .info .extra-space {
+      margin-top: 25px; } }
   #homes-page .houses .description .pic-desc {
     margin-top: 25px; }
+    #homes-page .houses .description .pic-desc__title {
+      font-size: 31px;
+      letter-spacing: 0.5px;
+      font-weight: 500; }
     #homes-page .houses .description .pic-desc__pic > img {
       width: 100%;
       background-color: #F3F4F6; }
@@ -814,6 +814,9 @@ header.scroll-version {
       letter-spacing: 0.25px;
       font-weight: 500;
       margin-bottom: 30px; }
+  @media (max-width: 1199px) {
+    #homes-page .houses .description .pic-desc .extra-space {
+      margin-top: 25px; } }
 
 footer {
   background-color: #383838;
@@ -857,16 +860,24 @@ footer {
     font-size: 22px;
     font-weight: 500;
     text-align: left; }
+    footer .subscribe .header .newsletter-subscribe {
+      margin-top: 25px;
+      display: flex; }
+      footer .subscribe .header .newsletter-subscribe input {
+        margin-right: 10px; }
   footer .subscribe .socials {
     margin-top: 50px;
     display: flex; }
     footer .subscribe .socials > a:not(:last-child) {
-      margin-right: 5px; }
+      margin-right: 10px; }
     footer .subscribe .socials img {
       max-width: 50px;
       width: 100%; }
   @media (max-width: 1199px) {
     footer .navs {
       margin-top: 30px; } }
+  @media (max-width: 772px) {
+    footer .subscribe {
+      margin-top: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

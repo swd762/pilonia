@@ -4,12 +4,62 @@ Template Name: Printers Page
 */
 ?>
 
-<?php get_header(); ?>
+<?php get_header('custom'); ?>
 
     <div id="printers-page">
         <main>
-            <div class="printers-video">
-                <img src="<?php echo get_template_directory_uri() . '/images/printers-page-video.png' ?>" alt="">
+            <div class="banner-video">
+                <div class="container">
+                    <div class="title">
+                        4D printer’s
+                    </div>
+                    <div class="body">
+                        OUR HOMES ARE
+                        FAST, FLEXIBLE,
+                        AND AFFORDABLE
+                    </div>
+                    <div class="footer">
+                        Printable homes are the new option in alternative housing.
+                        3DD Home takes it three steps forward.
+                    </div>
+                </div>
+                <video autoplay loop muted id="homes-header-video">
+                    <source src="<?php echo get_template_directory_uri() . '/images/videos/main_pilonia_short_01.mp4' ?>" type="video/mp4">
+                </video>
+                <div class="background-instead-video">
+
+                </div>
+                <a href="#" class="mouse-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 43">
+                        <defs>
+                            <style>.cls-1a, .cls-2a, .cls-3a {
+                                    fill: none;
+                                }
+
+                                .cls-2a, .cls-3a {
+                                    stroke: #fff;
+                                    stroke-width: 3px;
+                                }
+
+                                .cls-3a {
+                                    stroke-linecap: round;
+                                }</style>
+                        </defs>
+                        <title>Group 23</title>
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <g id="Group_23" data-name="Group 23">
+                                    <g id="Rectangle_18" data-name="Rectangle 18">
+                                        <path class="cls-1a" d="M13,0h0A13,13,0,0,1,26,13V30A13,13,0,0,1,13,43h0A13,13,0,0,1,0,30V13A13,13,0,0,1,13,0Z"></path>
+                                        <path class="cls-2a"
+                                              d="M13,1.5h0A11.5,11.5,0,0,1,24.5,13V30A11.5,11.5,0,0,1,13,41.5h0A11.5,11.5,0,0,1,1.5,30V13A11.5,11.5,0,0,1,13,1.5Z"></path>
+                                    </g>
+                                    <line id="Line_3" data-name="Line 3" class="cls-3a mouse-line" x1="13" y1="10.22" x2="13" y2="21.45"></line>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
             </div>
             <div class="container">
 
@@ -17,7 +67,7 @@ Template Name: Printers Page
                     <h2>4D Printers</h2>
                     <div class="row">
                         <div class="col-xl-3 col-md-3 about">
-                            About 4D Printers
+
                         </div>
                         <div class="col-xl-9 col-md-9 info">
                             <div class="header">
@@ -39,7 +89,7 @@ Template Name: Printers Page
                                     and graphene additives.
                                 </div>
                                 <div class="col-xl-8 pic">
-                                    <img src="<?php echo get_template_directory_uri() . '/images/printer-pic.png' ?>" alt="">
+                                    <img src="<?php echo get_template_directory_uri() . '/images/printer-pic.jpg' ?>" alt="">
                                 </div>
                             </div>
                         </div>
@@ -49,8 +99,6 @@ Template Name: Printers Page
                     <h2>specifications</h2>
                     <div class="row">
                         <div class="col-xl-3 col-md-3 title">
-                            Pilonia
-                            attachment
                         </div>
                         <div class="col-xl-9 col-md-9 description">
                             <div class="row header">
@@ -315,7 +363,7 @@ Template Name: Printers Page
                                                 <span>mm</span>
                                             </div>
                                         </div>
-                                        <div class="col-xl-12 col-md-6 col-sm-6 info-box">
+                                        <div class="col-xl-12 col-md-6 col-sm-6 info-box extra-space">
                                             <div class="title">
                                                 <h4>Positioning speed</h4>
                                             </div>
@@ -496,8 +544,6 @@ Template Name: Printers Page
                     <h2>FAQ</h2>
                     <div class="row">
                         <div class="col-xl-2 title">
-                            Popular
-                            questions
                         </div>
                         <div class="col-xl-1">
 
@@ -549,8 +595,7 @@ Template Name: Printers Page
                                     </div>
                                     <div class="answer">
                                         Our vision is that 4D/3D printers can be utilized not only for housing, but also for other applications like printing pipes, bridges,
-                                        infrastructure, landscaping, cemeteries, etc. Essentially, there is no limitation on functionalities, especially since we are using the
-                                        latest nano materials including 2D materials like graphene.
+                                        infrastructure, landscaping, cemeteries, etc.
                                     </div>
                                 </div>
                                 <div class="col-xl-12 faq-block">
@@ -584,8 +629,7 @@ Template Name: Printers Page
                                         Can mortar be produced locally?
                                     </div>
                                     <div class="answer">
-                                        It is possible to produce Pilonia mortar locally. If necessary, we can also set up the manufacturing of nano materials, including graphene,
-                                        locally.
+                                        It is possible to produce Pilonia mortar locally.
                                     </div>
                                 </div>
                                 <div class="col-xl-12 faq-block">
