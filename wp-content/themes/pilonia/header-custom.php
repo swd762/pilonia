@@ -33,11 +33,11 @@
                 <a href="tel:+843-PILONIA (745-6642)">843-PILONIA (745-6642)</a>
                 <a href="mailto:info@pilonia.com">info@pilonia.com</a>
 			</div>
-			<div class="menu-icon menu-icon-light">
-				<span class="menu-icon__line menu-icon__line-left"></span>
-				<span class="menu-icon__line"></span>
-				<span class="menu-icon__line menu-icon__line-right"></span>
-			</div>
+<!--			<div class="menu-icon menu-icon-light">-->
+<!--				<span class="menu-icon__line menu-icon__line-left"></span>-->
+<!--				<span class="menu-icon__line"></span>-->
+<!--				<span class="menu-icon__line menu-icon__line-right"></span>-->
+<!--			</div>-->
 		</div>
 	</div>
 </header>
