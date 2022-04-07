@@ -300,14 +300,6 @@ Template Name: Our homes
                                 </div>
                                 <div class="col-xl-12 faq-block">
                                     <div class="question">
-                                        What is the cost comparable 4D/3D printed vs tradition?
-                                    </div>
-                                    <div class="answer">
-                                        The average cost in construction is $150-350/sq. ft, cost of construction vs <$40/sq. ft for 3D or 4D printed.
-                                    </div>
-                                </div>
-                                <div class="col-xl-12 faq-block">
-                                    <div class="question">
                                         What is the material loss of 4D/3D printed vs traditional?
                                     </div>
                                     <div class="answer">
